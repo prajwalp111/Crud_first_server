@@ -1,0 +1,24 @@
+<%- include('../partials/head') %>
+
+<title>Single Tweet</title>
+</head>
+<body>
+    <h2>Comment with ID: <%= comment.id %></h2>
+
+    <div class="tweet-card">
+        <p><strong><%= comment.username %></strong> - <%= comment.tweet %></p>
+    </div>
+
+    <div class="tweet-image">
+        <img src="<%= comment.img %>" alt="Image from <%= comment.username %>">
+    </div>
+
+    <div class="actions">
+        <a class="back-link" href="/comments">Back Home</a><br>
+        <a class="back-link" href="/comments/<%= comment.id %>/edit">Edit Comment</a><br>
+
+        <form class="delete-form" action="/comments/<%= comment.id %>?_method=DELETE" method="POST">
+            <button class="delete-button">Delete</button>
+        </form>
+    </div>
+    <%- include('../partials/foot') %>

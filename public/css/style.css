@@ -1,0 +1,265 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.li_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    width: 70%;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+li b {
+    color: #0077cc;
+}
+
+a {
+    text-decoration: none;
+    color: #ff6600;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Add Tweet Button */
+a[href="/comments/new"] {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #0077cc;
+    color: #fff;
+    border-radius: 5px;
+}
+
+a[href="/comments/new"]:hover {
+    background-color: #005fa3;
+}
+
+/* Form styling */
+form.comment-form {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+form.comment-form section {
+    margin-bottom: 15px;
+}
+
+form.comment-form label {
+    font-weight: bold;
+    display: block;
+}
+
+form.comment-form input,
+form.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form.comment-form textarea {
+    resize: vertical;
+}
+
+form.comment-form button {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+form.comment-form button:hover {
+    background-color: #005fa3;
+}
+
+/* Back Home button */
+.back-link,
+a[href="/comments"] {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #0077cc;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.back-link:hover,
+a[href="/comments"]:hover {
+    background-color: #005fa3;
+}
+
+.tweet-card {
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.delete-form {
+    margin-top: 10px;
+}
+
+.delete-button {
+    background-color: #cc0000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #a10000;
+}
+
+.comment-form img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Edit Comment Form */
+form.comment-form input,
+form.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form.comment-form textarea {
+    resize: vertical;
+}
+
+form.comment-form button {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+form.comment-form button:hover {
+    background-color: #005fa3;
+}
+
+.tweet-image {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically (if needed) */
+    margin-bottom: 20px;
+}
+
+.tweet-image img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.back-link {
+    text-decoration: none;
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.back-link:hover {
+    background-color: #005fa3;
+}
+
+.delete-button {
+    background-color: #e60000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #c10000;
+}
+
+.delete-form {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ff6600;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

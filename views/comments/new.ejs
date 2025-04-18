@@ -1,0 +1,26 @@
+<%- include('../partials/head') %>
+
+<title>Add new</title>
+</head>
+<body>
+
+    <form action="/comments" method="post" class="comment-form">
+        
+        <section>
+            <label for="username">Enter username</label>
+            <input type="text" name="username" id="username" required>
+        </section>
+        <section>
+            <label for="tweet">Enter tweets</label><br>
+            <textarea name="tweet" id="tweet" rows="4" placeholder="Enter your tweet..." required></textarea>
+        </section>
+        <section>
+            <label for="img">Image URL</label>
+            <input type="text" name="img" id="img">
+        </section>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <a href="/comments" class="back-link">Back Home</a>
+
+    <%- include('../partials/foot') %>

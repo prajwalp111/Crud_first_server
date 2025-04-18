@@ -1,0 +1,29 @@
+<%- include('../partials/head') %>
+
+<title>Edit Comment</title>
+</head>
+<body>
+    <h2>Edit Comment - ID: <%= comment.id %></h2>
+
+    <form class="comment-form" method="POST" action="/comments/<%= comment.id %>?_method=PATCH">
+        <section>
+            <label for="comment">Tweet</label>
+            <textarea name="comment" id="comment" rows="3"><%= comment.tweet %></textarea>
+        </section>
+
+        <div>
+            <img src="<%= comment.img %>" alt="Image from <%= comment.username %>">
+        </div>
+
+        <section>
+            <label for="img">Image URL</label>
+            <input type="text" name="img" id="img" value="<%= comment.img %>">
+        </section>
+        
+
+        <button type="submit">Save</button>
+    </form>
+
+    <a class="back-link" href="/comments">Back Home</a>
+
+    <%- include('../partials/foot') %>
