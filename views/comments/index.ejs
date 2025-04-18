@@ -6,14 +6,16 @@
     
     <h1>Tweets are here</h1>
     <ul>
-        <a href="/comments/new">add new tweet</a><br>
-        <% for ( let c of comments ) { %> 
-            <li><b><%= c.username %></b> - <%= c.tweet %> <a href="/comments/<%= c.id %>">details</a>
-            <div class="li_img"><img src="<%= c.img %>" alt="image from <%= c.username %>"></div>
+        <a href="/comments/new">Add New Tweet</a><br>
+        <% for (let c of comments) { %> 
+            <li>
+                <b><%= c.username %></b> - <%= c.tweet %>
+                <div class="li_img">
+                    <img src="<%= c.img %>" alt="Image from <%= c.username %>">
+                </div>
+                <a href="/comments/<%= c.id %>">Details/Edit</a>
             </li>
-            
         <% } %>
-        
-    
     </ul>
+    
     <%- include('../partials/foot') %>
