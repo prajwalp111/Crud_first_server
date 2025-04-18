@@ -3,6 +3,8 @@ const app = express();
 const path = require('path');
 const methodOverride = require('method-override');
 
+const port = process.env.PORT || 3030;
+
 app.use(express.static(path.join(__dirname, 'public')))
 app.use(express.urlencoded({extended:true}));
 app.use(express.json())
