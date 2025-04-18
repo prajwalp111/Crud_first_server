@@ -70,6 +70,6 @@ app.delete('/comments/:id',(req,res)=>{
     res.redirect('/comments')
 })
 
-app.listen('0.0.0.0',()=>{
-    console.log('listening on port 3030')
-})
+app.listen(port, '0.0.0.0', () => {
+    console.log(`Server is listening on port ${port}`);
+});
