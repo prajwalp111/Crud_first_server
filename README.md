@@ -55,7 +55,7 @@ cd Crud_first_server
 npm install
 ```
 
-###3. Run the Application
+### 3. Run the Application
 ```bash
 node app.js
 ```
@@ -63,32 +63,24 @@ The app should now be running at http://localhost:3030/comments.
 
 ---
 
-#📽️ Live Demo :
+# 📽️ Live Demo :
 
-###Watch the demo here: https://youtu.be/8nZd1bUiDlQ
-
----
----
-
-#📸 Screenshots
-https://drive.google.com/drive/u/0/my-drive
-https://drive.google.com/drive/u/0/my-drive
-https://drive.google.com/drive/u/0/my-drive
-https://drive.google.com/drive/u/0/my-drive
+### Watch the demo here: https://youtu.be/8nZd1bUiDlQ
 
 ---
 
-#📌 Future Enhancements
 
--User authentication and login system
--File/image uploads with multer or cloud storage
--Responsive UI with a modern CSS framework (like Tailwind CSS or Bootstrap)
--Full-stack conversion using React or Vue.js
+# 📌 Future Enhancements
+
+- User authentication and login system
+- File/image uploads with multer or cloud storage
+- Responsive UI with a modern CSS framework (like Tailwind CSS or Bootstrap)
+- Full-stack conversion using React or Vue.js
 
 ---
-#🧑‍💻 Author Prajwal P
+# 🧑‍💻 Author Prajwal P
 
-💬 Open to feedback, collaboration, and suggestions!
+## 💬 Open to feedback, collaboration, and suggestions!
 ---
 ## Contact
 
