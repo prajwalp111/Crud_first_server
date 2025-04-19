@@ -27,6 +27,9 @@ A hobby project that replicates core Twitter functionalities using **Node.js**, 
 
 ---
 
+# 📁 Project Structure
+
+```plaintext
 Crud_first_server/
 │
 ├── public/              # Static files (CSS)
@@ -36,7 +39,7 @@ Crud_first_server/
 ├── routes/              # Express route handlers (if any)
 ├── app.js               # Main application file
 └── package.json         # Project metadata and dependencies
-
+```
 
 ---
 
@@ -76,7 +79,7 @@ The app should now be running at http://localhost:3030/comments.
 - Full-stack conversion using React or Vue.js
 
 ---
-# 🧑‍💻 Author Prajwal P
+# 🧑‍💻 Author **Prajwal P**
 
 ## 💬 Open to feedback, collaboration, and suggestions!
 ---
