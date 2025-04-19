@@ -27,17 +27,15 @@ A hobby project that replicates core Twitter functionalities using **Node.js**, 
 
 ---
 
-## 📁 Project Structure
-
-Crud_first_server/ 
-│ 
-├── public/ # Static files (CSS) 
-├── views/ # EJS templates
-│ 
-├── partials/ # Reusable components 
-│ 
-├── app.js # Main application file 
-└── package.json # Project metadata and dependencies
+Crud_first_server/
+│
+├── public/              # Static files (CSS)
+├── views/               # EJS templates
+│   └── partials/        # Reusable components
+│
+├── routes/              # Express route handlers (if any)
+├── app.js               # Main application file
+└── package.json         # Project metadata and dependencies
 
 
 ---
